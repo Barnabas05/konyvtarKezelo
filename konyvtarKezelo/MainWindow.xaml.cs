@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace konyvtarKezelo
 {
@@ -54,7 +55,26 @@ namespace konyvtarKezelo
                     BookListBox.Items.Remove(bookToDelete);
                 }
             }
+            
         }
+
+        private void Filtercategory_Changed(object sender, RoutedEventArgs e)
+        {
+            var selectedCategory = FilterCategoryComboBox.SelectedItem as ComboBoxItem;
+            string selectedCategoryString = selectedCategory.Content.ToString();
+
+            BookListBox.Items.Clear();
+
+            foreach (var book in books)
+            {
+                if (selectedCategoryString == "Összes" || book.Category == selectedCategoryString)
+                {
+                    BookListBox.Items.Add(book);
+                }
+            }
+            
+                
+            }
 
         // Összes könyv megjelenítése
         private void ShowAllBooks_Click(object sender, RoutedEventArgs e)

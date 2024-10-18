@@ -17,3 +17,4 @@ C:\Users\kalma\source\repos\konyvtarKezelo\konyvtarKezelo\obj\Debug\net8.0-windo
 C:\Users\kalma\source\repos\konyvtarKezelo\konyvtarKezelo\obj\Debug\net8.0-windows\konyvtarKezelo.pdb
 C:\Users\kalma\source\repos\konyvtarKezelo\konyvtarKezelo\obj\Debug\net8.0-windows\konyvtarKezelo.genruntimeconfig.cache
 C:\Users\kalma\source\repos\konyvtarKezelo\konyvtarKezelo\obj\Debug\net8.0-windows\ref\konyvtarKezelo.dll
+C:\Users\kalma\source\repos\konyvtarKezelo\konyvtarKezelo\obj\Debug\net8.0-windows\konyvtarKezelo.sourcelink.json

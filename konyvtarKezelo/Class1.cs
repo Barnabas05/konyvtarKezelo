@@ -9,11 +9,11 @@ namespace konyvtarKezelo
     public class Book
     {
         public string Title { get; set; }
-        public string Genre { get; set; }
+        public string Category { get; set; }
 
         public override string ToString()
         {
-            return $"{Title} ({Genre})";
+            return $"{Title} ({Category})";
         }
     }
 

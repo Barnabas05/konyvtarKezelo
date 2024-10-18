@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("konyvtarKezelo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7777dcc5da392c1e9043419051144951a61af116")]
 [assembly: System.Reflection.AssemblyProductAttribute("konyvtarKezelo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("konyvtarKezelo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
